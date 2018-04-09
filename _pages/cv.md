@@ -11,49 +11,32 @@ redirect_from:
 
 Education
 ======
-* B.S. in Github, Github University, 2012
-* M.S. in Jekyll, Github University, 2014
-* Ph.D in Version Control Theory, Github University, 2018 (expected)
+* B.S. in Software Engineering Technology, Oregon Institute of Technology, 2016
+* A.S. in Computer Engineering Technology, Oregon Institite of Technology, 2016
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2017 - Present: Software Engineer
+  * Hamilton Company
+  * Duties included:
+    * Writing and maintaining WiX installers for various utilities
+    * Designing and maintaining project templates to speed up overall team workflow
+    * Writing software to interface 3rd party instrument with existing proprietary software
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2014 - 2016: IT Student Worker
+  * Oregon Institute of Technology
+  * Duties included: 
+    * Leading a team of 13 student workers
+    * Automating software and OS installs
+    * Working with staff and faculty for various computer needs
+    * Setting up multiple complex software packages (ArcGIS, AutoCAD, Eaglesoft)
+  * Supervisor: Scotty Hayes
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* To be filled at a later time
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Improved the overall workflow of OIT's student IT department by automating multiple tasks
+* Automated project creation at Hamilton Company and pioneered a workflow for all future developers

@@ -12,7 +12,6 @@
 
   @include clearfix();
   margin-bottom: 1em;
-
   @include breakpoint($large) {
     @include span(2 of 12);
     opacity: 0.75;
