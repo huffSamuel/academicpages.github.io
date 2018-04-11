@@ -1,6 +1,7 @@
 ---
 title: 'ExifRipper'
-date: 
+collection: projects
+excerpt: 'This is a utility to view EXIF tags in images'
 permalink: /projects/ExifRipper
 tags:
  - C#

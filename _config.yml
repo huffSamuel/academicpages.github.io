@@ -169,10 +169,7 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
+  projects:
     output: true
     permalink: /:collection/:path/
   portfolio:
@@ -196,6 +193,15 @@ defaults:
       comments: true
       share: true
       related: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+        layout: single
+        author_profile: true
+        read_time: true
+        share: true
   # _pages
   - scope:
       path: ""
