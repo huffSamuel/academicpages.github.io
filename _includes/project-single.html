@@ -33,18 +33,6 @@
         <a href="{{ base_path }}{{ project.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    
-    {% if project.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-
-        {% if project.collection == 'teaching' %}
-          <p> {{ project.type }}, <i>{{ project.venue }}</i>, {{ project.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif project.collection == 'publications' %}
-          <p>Published in <i>{{ project.venue }}</i>, {{ project.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif project.date %}
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ project.date | default: "1900-01-01" | date_to_xmlschema }}">{{ project.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
 
     {% if project.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ project.excerpt | markdownify }}</p>
