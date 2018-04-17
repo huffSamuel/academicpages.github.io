@@ -6,7 +6,11 @@ author_profile: true
 ---
 
 {% include base_path %}
-{% for project in site.projects %}
-  {% include project-single.html %}
-{% endfor %}
+{% if site.projects.empty %}
+  <h3>Projects currently unavailable.</h3>
+{% else %}
+  {% for project in site.projects %}
+    {% include project-single.html %}
+  {% endfor %}
+{% endif %}
 
