@@ -11,16 +11,6 @@ sections:
   label: Posts
   create: all
 - type: directory
-  path: _talks
-  label: Talks
-  create: all
-  match: "**/*"
-- type: directory
-  path: _portfolio
-  label: Portfolio
-  create: all
-  match: "**/*"
-- type: directory
   path: _projects
   label: Projects
   create: all
