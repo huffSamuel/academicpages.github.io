@@ -26,14 +26,5 @@ fields:
   default: []
   label: Tags
   description: Tags
-- name: content
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: content
 pages:
 - _posts/disable-form-button.md
