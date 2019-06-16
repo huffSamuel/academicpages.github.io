@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,34 +8,53 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
+# Education
 * B.S. in Software Engineering Technology, Oregon Institute of Technology, 2016
 * A.S. in Computer Engineering Technology, Oregon Institite of Technology, 2016
 
-Work experience
-======
-* 2017 - Present: Software Engineer
-  * Hamilton Company
-  * Duties included:
-    * Writing and maintaining WiX installers for various utilities
-    * Designing and maintaining project templates to speed up overall team workflow
-    * Writing software to interface 3rd party instrument with existing proprietary software
+# Work Experience
 
-* 2014 - 2016: IT Student Worker
-  * Oregon Institute of Technology
-  * Duties included: 
-    * Leading a team of 13 student workers
-    * Automating software and OS installs
-    * Working with staff and faculty for various computer needs
-    * Setting up multiple complex software packages (ArcGIS, AutoCAD, Eaglesoft)
-  * Supervisor: Scotty Hayes
-  
-Skills
-======
-* To be filled at a later time
+## [Hamilton Company](https://www.hamiltoncompany.com/), Reno, Nevada
 
-Service and leadership
-======
+### Software Engineer II
+* May 2019 - Present
+* Design a RESTful API to connect existing Hamilton Company software with new products
+* Develop additional tools to accelerate workflows
+* Design and develop a test framework to help automate common testing procedures for devices
+* Write software to interface new robots with existing software
+
+### Software Engineer I
+* January 2017 - May 2019
+* Develop Visual Studio project templates to accelerate developer workflows for common projects
+* Designed template WiX installer projects for multiple products
+* Integrate 3rd party devices with Hamilton Company software
+* Develop and design software to control robots produced by Hamilton Company
+* Work with employees from multiple departments to ensure product quality
+
+## [Oregon Institute of Technology](https://www.oit.edu/), Klamath Falls, Oregon
+### Student Worker for Information Technology Services
+* 2014 - December 2016
+* Automate software deployment and operating system installs using SCCM
+* Provide IT related customer service for staff, faculty, and students
+* Write and maintain scrips for automating common daily IT tasks
+* Lead a team of 13+ other student workers to balance workloads and skillsets
+
+# Technology
+
+## Programming Languages
+
+* Fluent in C#
+* Experienced with Dart, C, C++, SQL, Javascript, Typescript, AngularJS
+* Previously used Python, VHDL, Verilog, x86 assembly, MIPS, and others
+* Willing, able, and happy to learn others
+
+## Tools
+* Wix Toolset
+* Visual Studio/MSBuild
+* Source control (git/tfs)
+* SSMS
+* GCC
+
+# Service and Leadership
 * Improved the overall workflow of OIT's student IT department by automating multiple tasks
 * Automated project creation at Hamilton Company and pioneered a workflow for all future developers

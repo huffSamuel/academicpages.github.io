@@ -1,0 +1,14 @@
+---
+layout: archive
+permalink: /recipes/
+title: "Recipes"
+---
+
+{% include base_path %}
+{% if site.recipes.empty %}
+  <h3>Recipes currently unavailable.</h3>
+{% else %}
+  {% for project in site.recipes %}
+    {% include project-single.html %}
+  {% endfor %}
+{% endif %}
