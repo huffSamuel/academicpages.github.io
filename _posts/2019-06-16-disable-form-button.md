@@ -4,7 +4,7 @@ tags:
 title: Disable Form Button
 collection: posts
 permalink: "/posts/disable_form_button"
-posted: 2019-06-16 00:00:00 +0000
+posted: 2019-06-15 18:00:00 -0700
 
 ---
 Flutter is the cool new kid on the block when it comes to developing cross-platform mobile applications but since it is still so new it's hard to find good examples for everything. In this post I will show you how to create a form dialog that disables the save button until the form passes validation.
