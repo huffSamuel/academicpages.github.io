@@ -35,3 +35,5 @@ fields:
     schema:
       format: markdown
   label: content
+pages:
+- _posts/disable-form-button.md
