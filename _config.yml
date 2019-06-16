@@ -175,6 +175,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  posts:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -186,9 +189,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
       share: true
-      related: true
   # _projects
   - scope:
       path: ""

@@ -1,7 +1,11 @@
 ---
 tags:
 - flutter
+title: 'Flutter: Disable Form Button'
+collection: posts
+permalink: /posts/disable_form_button
 title: Disable Form Button
+published: true
 posted: 2019-06-02T01:00:00.000+00:00
 
 ---
