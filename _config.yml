@@ -16,12 +16,7 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "huffSamuel/portfolio"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
-<<<<<<< HEAD
 words_per_minute         : 85
-=======
-words_per_minute         : 160
-future                   : true
->>>>>>> 06c8b229e323e7cf6e0b32e39aff7871e2d6e707
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
@@ -86,21 +81,11 @@ analytics:
 author:
   name             : "Samuel Huff"
   avatar           : "profile.png"
-<<<<<<< HEAD
   bio              : "OIT graduate, .NET developer, and reasonable mountain bike rider."
   location         : "Reno, NV"
   employer         : "Hamilton Company"
   googlescholar    : 
   email            : "samueljhuff@gmail.com"
-=======
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
->>>>>>> 06c8b229e323e7cf6e0b32e39aff7871e2d6e707
   uri              :
   bitbucket        :
   codepen          :

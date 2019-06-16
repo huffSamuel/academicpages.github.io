@@ -11,14 +11,8 @@ redirect_from:
 
 Education
 ======
-<<<<<<< HEAD
 * B.S. in Software Engineering Technology, Oregon Institute of Technology, 2016
 * A.S. in Computer Engineering Technology, Oregon Institite of Technology, 2016
-=======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
->>>>>>> 06c8b229e323e7cf6e0b32e39aff7871e2d6e707
 
 Work experience
 ======
